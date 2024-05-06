@@ -66,7 +66,6 @@ function sortable(rootEl, onUpdate) {
 
       if (offset.y > halfHeight) {
         if (targetElement.nextSibling.parentElement === rootEl) {
-          console.log(dragElement, targetElement.nextSibling);
           rootEl.insertBefore(dragElement, targetElement.nextSibling);
         }
       } else {
