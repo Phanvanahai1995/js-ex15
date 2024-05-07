@@ -98,8 +98,6 @@ function sortable(rootEl, onUpdate) {
     setTimeout(function () {
       dragElement.classList.add("hide");
     }, 0);
-
-    const viewportHeight = window.innerHeight;
   });
 }
 
